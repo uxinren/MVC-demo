@@ -1,0 +1,25 @@
+#app4 {
+}
+
+@keyframes change {
+    0% {
+        background-color: aqua;
+    }
+    50% {
+        background-color: fuchsia;
+    }
+    100% {
+        background-color: bisque;
+    }
+}
+
+#app4 .circle {
+    width: 20vw;
+    height: 20vw;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+#app4 .circle.active {
+    animation: change 1s infinite alternate linear;
+}
